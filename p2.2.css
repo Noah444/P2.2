@@ -1,0 +1,120 @@
+*
+{
+   font-family: 'Raleway', sans-serif;
+}
+
+
+/* Header */ 
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-left: 57px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+nav a:hover
+{
+    border-top: solid 2px #0065FC;
+    margin-top: 15px;
+    color: #0065FC;
+}
+
+nav li
+{
+    color: black;
+}
+
+.sinscrire
+{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+
+nav a
+{
+    font-size: 1.1em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px;      
+}
+
+
+/* Main */
+
+main h1
+{
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+#trouvezvotrehebergement
+{
+    margin-left: 55px;
+    margin-top: 44px;
+}
+
+#input
+{
+    margin-top: 25px;
+    display: flex;
+    width: 440px;
+    height: 60px;
+    margin-left: 54px;
+}
+
+#boxping
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F2F2F2;
+   width: 52px;
+   height: 51px;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+}
+
+#ping
+{
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input
+{
+   border: 1px solid;
+   border-color: #F2F2F2;
+   outline:  none; 
+   width: 234px;
+   height: 47px;
+   font-weight: bold;
+}
+
+.boutton
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:none;
+   background-color: #0065FC;
+   color: #FFFF;
+   font-weight: bold;
+   height: 51px;
+   width: 134px;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
