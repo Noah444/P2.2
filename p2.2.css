@@ -29,17 +29,18 @@ nav a:hover
     color: #0065FC;
 }
 
-nav li
-{
-    color: black;
-}
 
-.sinscrire
+.lienbleu
+
 {
-    margin-right: 20px;
     font-weight: bold;
+    color: #0065FC;
 }
 
+#sinscrire
+{
+    margin-right: 15px;
+}
 
 nav a
 {
@@ -47,7 +48,9 @@ nav a
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    margin: 50px;      
+    margin: 50px;
+    color: black;   
+    padding-top: 50px;   
 }
 
 
@@ -86,13 +89,6 @@ main h1
    border-bottom-left-radius: 15px;
 }
 
-#ping
-{
-   color: black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
 .input
 {
@@ -117,4 +113,128 @@ main h1
    width: 134px;
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
+}
+
+/* Menu des filtres */
+/* filtres economique */
+
+.menufiltres
+{
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   margin-left: 62px;
+   margin-top: 13px;
+   height: 46px;
+   width: 1300px;
+}
+
+.boxbilletfiltres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+    border: 2px solid #F2F2F2;
+    border-radius: 48px;
+    width: 184px;
+    height: 46px;
+    border-left: none;
+}
+
+.billetfiltres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 13px;
+}
+
+/* filtres Familial */
+
+.boxfamilialfiltres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+    border: 2px solid #F2F2F2;
+    border-radius: 48px;
+    width: 152px;
+    height: 46px;
+    border-left: none;
+}
+
+.childfiltres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 22px;
+}
+
+/* filtres Romantique */
+
+.boxromantiquefiltres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+    border: 2px solid #F2F2F2;
+    border-radius: 48px;
+    width: 184px;
+    height: 46px;
+    border-left: none;
+}
+
+.coeurfiltres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 19px;
+}
+
+/* filtres Animaux autorisés */
+
+.boxanimauxfiltres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 24px;
+    border: 2px solid #F2F2F2;
+    border-radius: 48px;
+    width: 241px;
+    height: 46px;
+    border-left: none;
+}
+
+.dogfiltres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 22px;
 }
